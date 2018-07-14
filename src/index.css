@@ -8,12 +8,11 @@ body {
 .wrapper {
   display: flex;
   width: 1080px;
-  /* border: 1px solid salmon; */
   margin: 30px auto;
 }
 
 .wrapper .left {
-  flex-basis: 300px; 
+  flex-basis: 270px; 
   background: #fff;
   border-radius: 5px;
   margin-right: 30px;
@@ -204,14 +203,85 @@ ul.profile-info li span {
 }
 
 .content {
-  padding: 25px;
   background: #fff;
   margin-top: 30px;
   border-radius: 5px;
+}
+
+.content section > h3,
+.skill-set > h3 {
+  margin-top: 0;
 }
 
 .content p {
   color: #4c4c4c;
   font-size: 14px;
 }
+
+.content section {
+  padding: 50px 30px;
+}
+
+.service-section {
+  background: #fafafa;
+}
+
+.service-section .section-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 10px;
+  flex-basis: 21%;
+}
+
+.service-box i {
+  font-size: 35px;
+  color: #425cbb
+}
+
+.service-box h3 {
+  font-size: 14px;
+}
+
+.service-box div {
+  font-size: 13px;
+  color: #989898;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-section .skill-set {
+  flex-basis: 46%;
+}
+
+.skill-section .section-content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-section .section-content h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 0 8px 0;
+}
+
+.skill-section .progress {
+  background: #dfdfdf;
+  height: 5px;
+}
+
+.skill-section .percentage {
+  background: #425cbb;
+  height: 100%;
+  border-radius: 5px;
+}
+
 
