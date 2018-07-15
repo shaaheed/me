@@ -9,6 +9,7 @@ body {
   display: flex;
   width: 1080px;
   margin: 30px auto;
+  align-items: start;
 }
 
 .wrapper .left {
@@ -150,6 +151,12 @@ ul.profile-info li span {
 
 .tabs li a {
   padding: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.tabs li.home a {
+  color: #fff;
 }
 
 .tabs li {
@@ -166,7 +173,6 @@ ul.profile-info li span {
   padding: 0 15px;
   background: #425cbb;
   border-radius: 5px 0 0 5px;
-  color: #fff;
   margin-right: 10px;
 }
 
@@ -284,4 +290,27 @@ ul.profile-info li span {
   border-radius: 5px;
 }
 
+.footer {
+  background: #1e1e1e;
+    margin: 30px 0;
+    color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-name, .footer .copyright {
+  flex: 1;
+}
+
+.footer .footer-name {
+  font-size: 15px;
+}
+
+.footer .copyright {
+  color: #9c9c9c;
+  font-size: 12px;
+  text-align: right;
+}
 
