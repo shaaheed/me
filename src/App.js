@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import profilePhoto from './img/photo-1.jpg'
 import constant, { infoForLeft, skills, services } from './data'
 import { SkillSet } from './components/skill-set'
