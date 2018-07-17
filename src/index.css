@@ -314,3 +314,77 @@ ul.profile-info li span {
   text-align: right;
 }
 
+section.portfolio .section-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb-box {
+  flex-basis: 31%;
+  cursor: pointer;
+}
+
+.thumb {
+  position: relative;
+}
+
+.thumb img {
+  width: 100%;
+}
+
+.thumb .navigate {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  background: #425cbb;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  transform: translate(-25px, -25px);
+  align-items: center;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.thumb-box:hover .navigate {
+  display: flex;
+}
+
+.thumb-box .description {
+  padding: 15px;
+}
+
+.description span {
+  display: block;
+}
+
+.thumb-box .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.thumb-box .info {
+  font-size: 13px;
+  color: #989898;
+  line-height: 20px;
+}
+
+.thumb-box a {
+  text-decoration: none;
+}
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-details img {
+  width: 100%;
+  margin: 20px 0;
+}
+

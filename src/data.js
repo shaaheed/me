@@ -1,13 +1,13 @@
 const constant = {
     name: 'Sahidul Islam',
-    title: '.NET Developer',
+    title: 'Software Engineer',
     dob: 'September 1990',
     email: 'shahidcse6@gmail.com',
     skype: 'shaaheed.bd',
     github: 'https://github.com/shaaheed?tab=repositories',
     linkedin: 'https://www.linkedin.com/in/shaaheed-bd/',
     stackoverflow: 'https://stackoverflow.com/users/4778882/shahid',
-    blogspot: 'http://learner-notes.blogspot.com/'
+    blogspot: 'http://learner-notes.blogspot.com/',
 }
 
 export const infoForLeft = [
@@ -20,9 +20,9 @@ export const infoForLeft = [
 
 export const skills = {
     frontend: [
-        { name: 'JavaScript', value: 65 },
-        { name: 'Angular', value: 65 },
-        { name: 'React', value: 60 }
+        { name: 'JavaScript', value: 83 },
+        { name: 'Angular', value: 80 },
+        { name: 'React', value: 85 }
     ],
     backend: [
         { name: 'C#', value: 70 },
@@ -39,17 +39,17 @@ export const services = [
     {
         title: 'JavaScript',
         icon: 'fab fa-js',
-        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquid accusamus, doloribus itaque.'
-    },
-    {
-        title: 'Angular',
-        icon: 'fab fa-angular',
-        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis consequatur dolorum.'
+        details: 'I have a proven ability to build any fontend app using modern JavaScript and it\'s hotest framework!'
     },
     {
         title: 'React',
         icon: 'fab fa-react',
-        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque ipsam, provident omnis.'
+        details: 'Have strong capability and advanced knowledge on React. Worked on several professional project. This site is also built on React!'
+    },
+    {
+        title: 'Angular',
+        icon: 'fab fa-angular',
+        details: 'I have proficiency in Angular to build professional web app. Built several project using Angular 4, 5, Material design etc.'
     }
 ]
 
