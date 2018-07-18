@@ -9,9 +9,8 @@ export const Home = () => {
             <section>
                 <h3 className="section-header">About Me</h3>
                 <div className="section-content">
-                    <p>Since 2017, I am working as a software engineer in professional software industry, where I have been developing innovative solutions, software and systems. I am excelent on requirement gathering to design, coding, testing, documentation and implementation.</p>
-
-                    <p>I am skilled in .NET Core, .NET Framework, ASP.NET Core MVC, ASP.NET Core MVC Web API, React, Angular etc</p>
+                    <p>Since 2015, I am working as a software engineer in professional software industry, where I have been developing innovative solutions, software and systems. I am excellent on requirement gathering to design, coding, testing, documentation and implementation.</p>
+                    <p>I am skilled in .NET Core, .NET Framework, ASP.NET Core MVC, ASP.NET Core MVC Web API, React, Angular and definitely more!</p>
                 </div>
             </section>
             <section className="service-section">
