@@ -1,3 +1,5 @@
+// import * as func from './functions'
+
 const constant = {
     name: 'Sahidul Islam',
     title: 'Software Engineer',
@@ -52,5 +54,42 @@ export const services = [
         details: 'I have proficiency in Angular to build professional web app. Built several project using Angular 4, 5, Material design etc.'
     }
 ]
+
+export const timeline = {
+    work: [
+        {
+            title: 'Software Engineer',
+            company: 'Bit Mascot',
+            duration: 'Jul 2017 - Present, 1 yr 1 mos',
+            description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quas harum commodi enim distinctio, officia voluptates quia praesentium ratione aliquam facilis repellat est eaque exercitationem explicabo laborum, incidunt, in minus?'
+        },
+        {
+            title: 'Junior Software Engineer',
+            company: 'Bit Mascot',
+            duration: 'Aug 2015 - Jun 2017, 1 yr 11 mos',
+            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus vel illum reiciendis aspernatur aliquam voluptate molestias id nisi perspiciatis blanditiis'
+        }
+    ],
+    education: [
+        {
+            title: 'Bangladesh University of Bussiness and Technology, BUBT',
+            degree: 'Bachelor\'s of Computer Science and Engineering (CSE)',
+            duration: '2012 - 2015',
+            description: 'Lorem ipsum dolor Illo est velit ipsa aperiam alias inventore iste qui eligendi.'
+        },
+        {
+            title: 'Tangail Polytechnic Institute, Tangail',
+            degree: 'Diploma in Computer Technology',
+            duration: '2006 - 2010',
+            description: 'Lorem ipsum Ullam, quos eos officia, repellendus, quae.'
+        },
+        {
+            title: 'Rampur High School, Tangail',
+            degree: 'Secondary School Certificate (SSC), Science Group',
+            duration: '2001 - 2006',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        }
+    ]
+}
 
 export default constant;
