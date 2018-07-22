@@ -31,7 +31,9 @@ class App extends Component {
               <img src={profilePhoto} alt="Profile" />
             </div>
             <ul className="profile-info">
-              <li></li>
+              <li>
+                <i class="fas fa-glasses"></i>
+              </li>
               {this.makeProfileInfoLi()}
             </ul>
             {/* <div className="download-cv button hoverable">
