@@ -36,22 +36,22 @@ export const services = [
     {
         title: 'Backend Development',
         icon: 'fas fa-code',
-        details: 'I have been working on backend development for 2+ years using .NET family.'
+        details: 'I have been working on backend development using .NET Framework, .NET Core as well as PHP, Laravel etc.'
     },
     {
         title: 'JavaScript',
         icon: 'fab fa-js',
-        details: 'I have a proven ability to build any fontend app using modern JavaScript and it\'s hotest framework!'
+        details: 'I have a proven ability to build any fontend app using modern JavaScript and it\'s latest framework.'
     },
     {
         title: 'React',
         icon: 'fab fa-react',
-        details: 'Have strong capability and advanced knowledge on React. Worked on several professional project. This site is also built on React!'
+        details: 'Have strong capability and advanced knowledge on React. Worked on several professional projects.'
     },
     {
         title: 'Angular',
         icon: 'fab fa-angular',
-        details: 'I have proficiency in Angular to build professional web app. Built several project using Angular 4, 5, Material design etc.'
+        details: 'I have proficiency in Angular to build professional web app. Built several projects using Angular 4, 5, Material Design etc.'
     }
 ]
 
@@ -59,35 +59,49 @@ export const timeline = {
     work: [
         {
             title: 'Software Engineer',
-            company: 'Bit Mascot',
+            company: 'Bit Mascot (Pvt) Ltd.',
             duration: 'Jul 2017 - Present, 1 yr 1 mos',
-            description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quas harum commodi enim distinctio, officia voluptates quia praesentium ratione aliquam facilis repellat est eaque exercitationem explicabo laborum, incidunt, in minus?'
+            description: [
+
+                'Building backend application and web API using .NET Core, ASP.NET Core, EntityFramework Core, MSSQL and standard design patterns such as UnitOfWork, Repository, Service, CQRS, Mediator, Singleton, Factory etc.',
+
+                'Building frontend web client using Node.js, Angular2+, ES6 JavaScript, jQuery etc.',
+
+                'Maintaining existing web app, desktop (WPF) app etc.',
+
+                'Documenting features, technical specifications and infrastructure requirements.'
+            ]
         },
         {
             title: 'Junior Software Engineer',
-            company: 'Bit Mascot',
+            company: 'Bit Mascot (Pvt) Ltd.',
             duration: 'Aug 2015 - Jun 2017, 1 yr 11 mos',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus vel illum reiciendis aspernatur aliquam voluptate molestias id nisi perspiciatis blanditiis'
+            description: [
+
+                'Developed 2D, 3D game using Unity3D game engine and C# programming language.',
+
+                'Built varoius games to various platform such as Windows, Android, iOS, OSX using Unity3D game engine, Android Studio, XCode tools.',
+
+                'Maintained existing iOS app, added new feature and fixed bugs using XCode, Objective-C.'
+
+            ]
         }
     ],
     education: [
         {
             title: 'Bangladesh University of Bussiness and Technology, BUBT',
             degree: 'Bachelor\'s of Computer Science and Engineering (CSE)',
-            duration: '2012 - 2015',
-            description: 'Lorem ipsum dolor Illo est velit ipsa aperiam alias inventore iste qui eligendi.'
+            duration: '2012 - 2015'
         },
         {
             title: 'Tangail Polytechnic Institute, Tangail',
             degree: 'Diploma in Computer Technology',
-            duration: '2006 - 2010',
-            description: 'Lorem ipsum Ullam, quos eos officia, repellendus, quae.'
+            duration: '2006 - 2010'
         },
         {
             title: 'Rampur High School, Tangail',
             degree: 'Secondary School Certificate (SSC), Science Group',
-            duration: '2001 - 2006',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+            duration: '2001 - 2006'
         }
     ]
 }
