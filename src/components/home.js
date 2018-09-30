@@ -16,9 +16,11 @@ export const Home = () => {
                 <h3 className="section-header">Summary</h3>
                 <div className="section-content">
                     <ul>
-                        <li>Extensive experienced to build backend web application using <strong>ASP.NET MVC</strong>, <strong>ASP.NET CORE MVC</strong>, and <strong>ASP.NET CORE WEB API</strong>.</li>
+                        <li>Experienced to build backend web application using <strong>ASP.NET MVC</strong>, <strong>ASP.NET CORE MVC</strong>, and <strong>ASP.NET CORE WEB API</strong>.</li>
 
-                        <li>Highly experienced in frontend development to build any web app using <strong>ES6 JavaScript</strong>, <strong>Angular 2+</strong>, <strong>React</strong>, <strong>jQuery</strong> etc.</li>
+                        <li>Experienced in frontend development to build any web app using <strong>ES6 JavaScript</strong>, <strong>Angular 2+</strong>, <strong>React</strong>, <strong>jQuery</strong> etc.</li>
+
+                        <li>Prefer to do <strong>Research and Development (RnD)</strong>.</li>
 
                         <li>Experienced with <strong>.NET Core</strong>, <strong>.NET Framework</strong> and worked on various <strong>WPF</strong> applications with <strong>DevExpress</strong> UI tool and <strong>MVVM</strong> design pattern.</li>
 
@@ -30,7 +32,7 @@ export const Home = () => {
 
                         <li>Good knowledge in <strong>OOP</strong> and programming <strong>Design Patterns</strong>.</li>
 
-                        <li>Strong ability to integrate any third party library by the help of their documentation.</li>
+                        <li>Ability to integrate third party library by the help of their documentation.</li>
 
                         <li>Experienced with <strong>Git</strong>, <strong>GitHub</strong>, <strong>BitBucket</strong> and tools <strong>TGit</strong>, <strong>Git Bash</strong>, <strong>Source Tree</strong>. </li>
 
@@ -42,7 +44,7 @@ export const Home = () => {
 
                         <li>Ability to work individually and independently with minimal supervision.</li>
 
-                        <li>Self motivated, independent, open to learn new technology, relatively quick learner.</li>
+                        <li>Self motivated, independent, open to learn new technology.</li>
                     </ul>
                 </div>
             </section>

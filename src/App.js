@@ -93,9 +93,6 @@ class App extends Component {
               <div className="footer-name">{constant.name}.</div>
               <div className="copyright"> &copy; {new Date().getFullYear()} All rights reserved.</div>
             </footer>
-            <div className="page-counter">
-              <script type="text/javascript" src="http://services.webestools.com/cpt_visitors/57906-1-5.js"></script>
-            </div>
           </div>
         </div>
       </Router>
